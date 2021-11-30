@@ -11,7 +11,6 @@ function Kavo:DraggingEnabled(frame, parent)
         
     parent = parent or frame
     
-    -- stolen from wally or kiriot, kek
     local dragging = false
     local dragInput, mousePos, framePos
 
@@ -126,7 +125,7 @@ local SettingsT = {
 
 }
 
-local Name = "KavoConfig.JSON"
+local Name = "DroidsKavo.JSON"
 
 pcall(function()
 
